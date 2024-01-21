@@ -1,0 +1,5 @@
+build/
+dist/
+app.log
+Keychron_updater.spec
+innosetup/Keychron_updater_setup.exe

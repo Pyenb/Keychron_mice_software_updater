@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole Keychron_updater.py
