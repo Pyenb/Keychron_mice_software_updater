@@ -49,7 +49,6 @@ The software will break if Keychron changes the download link for the software. 
 - [wkentaro](https://github.com/wkentaro) for making [gdown](https://github.com/wkentaro/gdown)
 - [Keychron](https://www.keychron.com/) for making great products, even tough all my batteries are failing.
 
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
