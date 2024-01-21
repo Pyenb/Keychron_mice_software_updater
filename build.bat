@@ -1,1 +1,1 @@
-pyinstaller --onefile --noconsole Keychron_updater.py
+pyinstaller --onefile --noconsole Keychron_mice_updater.py

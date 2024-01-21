@@ -16,7 +16,7 @@ This Python script automatically checks for a new version of the Keychron mice s
 
 ## Installation
 
-1. Navigate to the [Releases](https://github.com/Pyenb/Keychron_software_updater/releases) section of this repository.
+1. Navigate to the [Releases](https://github.com/Pyenb/Keychron_mice_software_updater/releases) section of this repository.
 2. Download the latest release of the Keychron Software Updater.
 3. Extract the downloaded `.zip` file.
 4. Run the downloaded `.exe` file to start the installation process. Follow the prompts to complete the installation.

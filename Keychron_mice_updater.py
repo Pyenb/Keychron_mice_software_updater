@@ -1,7 +1,5 @@
-import requests, gdown, zipfile, os, ctypes, tempfile, shutil, subprocess, logging
+import requests, gdown, zipfile, os, ctypes, tempfile, shutil, subprocess
 from tkinter import messagebox
-
-logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 install_path = "C:\\Program Files (x86)\\Keychron"
 
@@ -11,7 +9,6 @@ def get_installed_version():
             installed_version = f.read().split('<software caption="Keychron" version="')[1].split('"')[0]
         return installed_version
     except Exception as e:
-        logging.error(f"Failed to get installed version: {e}")
         messagebox.showerror("Error", f"Failed to get installed version: {e}")
 
 def get_online_version_and_url():
@@ -28,16 +25,14 @@ def get_online_version_and_url():
 
         return online_version, download_url
     except Exception as e:
-        logging.error(f"Failed to get online version and url: {e}")
         messagebox.showerror("Error", f"Failed to get online version and url: {e}")
 
 def download_and_extract_file(download_url, tmp_path):
     try:
-        gdown.download(download_url, tmp_path + '\\Keychron.zip', quiet=False)
+        gdown.download(download_url, tmp_path + '\\Keychron.zip', quiet=True)
         with zipfile.ZipFile(tmp_path + '\\Keychron.zip', 'r') as zip_ref:
             zip_ref.extractall(tmp_path)
     except Exception as e:
-        logging.error(f"Failed to download and extract file: {e}")
         messagebox.showerror("Error", f"Failed to download and extract file: {e}")
 
 def run_exe(tmp_path):
@@ -48,7 +43,6 @@ def run_exe(tmp_path):
                     process = subprocess.Popen([os.path.join(root, file)], shell=True)
                     process.wait()
     except Exception as e:
-        logging.error(f"Failed to run exe: {e}")
         messagebox.showerror("Error", f"Failed to run exe: {e}")
 
 def main():
@@ -65,7 +59,6 @@ def main():
                 run_exe(tmp_path)
                 shutil.rmtree(tmp_path)
     except Exception as e:
-        logging.error(f"An error occurred: {e}")
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 if __name__ == "__main__":
