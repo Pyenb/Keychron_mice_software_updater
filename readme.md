@@ -10,6 +10,7 @@ This Python script automatically checks for a new version of the Keychron mice s
 - [Usage](#usage)
 - [Uninstallation](#uninstallation)
 - [Problem reports](#problem-reports)
+- [Anti-virus detection](#anti-virus-detection)
 - [Thanks to](#thanks-to)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
@@ -20,6 +21,8 @@ This Python script automatically checks for a new version of the Keychron mice s
 2. Download the latest release of the Keychron Software Updater.
 3. Extract the downloaded `.zip` file.
 4. Run the downloaded `.exe` file to start the installation process. Follow the prompts to complete the installation.
+
+![Installation](images/install01.png)
 
 ## Usage
 
@@ -40,9 +43,20 @@ To uninstall the Keychron Software Updater:
 3. Find "Keychron Software Updater" in the list of installed programs and click on it.
 4. Click on the "Uninstall" button that appears.
 
+![preview](images/app_preview.png)
+![Uninstallation](images/uninstall.png)
+
 ## Problem reports
 
 The software will break if Keychron changes the download link for the software. If this happens, please open an issue with your received error message and I will try to fix the problem as soon as possible.
+
+## Anti-virus detection
+
+Currently the windows defender detects the software as a virus. This is a false positive. The software is open source, so you can check the code yourself. If you don't trust me, you can always download the source code and run it yourself.
+
+I have already opened an ticket with Microsoft to get the software whitelisted. Check the picture below for the submission.
+
+![Windows Defender Submission](images/submission.png)
 
 ## Thanks to
 
