@@ -11,6 +11,7 @@ This Python script automatically checks for a new version of the Keychron mice s
 - [Uninstallation](#uninstallation)
 - [Problem reports](#problem-reports)
 - [Anti-virus detection](#anti-virus-detection)
+- [FAQ](#faq)
 - [Thanks to](#thanks-to)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
@@ -57,6 +58,16 @@ Currently the windows defender detects the software as a virus. This is a false 
 I have already opened an ticket with Microsoft to get the software whitelisted. Check the picture below for the submission.
 
 ![Windows Defender Submission](images/submission.png)
+
+## FAQ
+
+**Q: Why is the executable so big?**
+
+A: The executable is so big because it contains the python interpreter and all the dependencies. This is because I used [PyInstaller](https://www.pyinstaller.org/) to create the executable. I am currently looking into other ways to create the executable.
+
+**Q: Why the installer?**
+
+A: I used [Inno Setup](https://jrsoftware.org/isinfo.php) to create the installer. This is because I wanted to make the installation process as easy as possible. Also it makes uninstalling and starting the software on startup easier.
 
 ## Thanks to
 
