@@ -31,9 +31,11 @@ This Python script automatically checks for a new version of the Keychron mice s
 
 2. **Update Notification**: If a new version is found, the Keychron Software Updater will prompt you to download the new version.
 
-3. **Download and Installation**: If you choose to download the new version, the Keychron Software Updater will automatically download the new version and start the installation process.
+3. **Download and Installation**: If you choose "Ok", the Keychron Software Updater will automatically download the new version and start the installation process.
 
 4. **Cleanup**: After the installation process is complete, the Keychron Software Updater will automatically delete the downloaded installer.
+
+![Update Notification](images/notification.png)
 
 ## Uninstallation
 
@@ -58,6 +60,12 @@ Currently the windows defender detects the software as a virus. This is a false 
 I have already opened an ticket with Microsoft to get the software whitelisted. Check the picture below for the submission.
 
 ![Windows Defender Submission](images/submission.png)
+
+**Update:** This is the response I got from Microsoft:
+
+![Windows Defender Submission](images/response.png)
+
+I also manually rescanned the file, but couldn't get it to throw a false positive. I will watch this issue further and update this section if anything changes. Please let me know if you have any problems with the software and the AV.
 
 ## FAQ
 
