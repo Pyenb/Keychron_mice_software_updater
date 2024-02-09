@@ -1,6 +1,10 @@
 build/
 dist/
-app.log
-Keychron_mice_updater.spec
-innosetup/Keychron_mice_updater_setup.exe
-innosetup/Keychron_mice_updater_setup.zip
+upx/
+
+*.log
+*.spec
+*.json
+
+innosetup/*.exe
+innosetup/*.zip
