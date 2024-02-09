@@ -51,21 +51,11 @@ To uninstall the Keychron Software Updater:
 
 ## Problem reports
 
-The software will break if Keychron changes the download link for the software. If this happens, please open an issue with your received error message and I will try to fix the problem as soon as possible.
+The software will break if Keychron changes the download link for the software. If this happens, please open an issue with your received error message and I will try to assist you as soon as possible.
 
 ## Anti-virus detection
 
-Currently the windows defender detects the software as a virus. This is a false positive. The software is open source, so you can check the code yourself. If you don't trust me, you can always download the source code and run it yourself.
-
-I have already opened an ticket with Microsoft to get the software whitelisted. Check the picture below for the submission.
-
-![Windows Defender Submission](images/submission.png)
-
-**Update:** This is the response I got from Microsoft:
-
-![Windows Defender Submission](images/response.png)
-
-I also manually rescanned the file, but couldn't get it to throw a false positive. I will watch this issue further and update this section if anything changes. Please let me know if you have any problems with the software and the AV.
+For information regarding anti-virus detection, please see the [av.md](av.md) file.
 
 ## FAQ
 
