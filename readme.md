@@ -77,6 +77,10 @@ A: The executable is so big because it contains the python interpreter and all t
 
 A: I used [Inno Setup](https://jrsoftware.org/isinfo.php) to create the installer. This is because I wanted to make the installation process as easy as possible. Also it makes uninstalling and starting the software on startup easier.
 
+**Q: Why does the software need admin privileges?**
+
+A: The official Keychron software needs the admin privileges to install their software.
+
 ## Thanks to
 
 - [wkentaro](https://github.com/wkentaro) for making [gdown](https://github.com/wkentaro/gdown)
