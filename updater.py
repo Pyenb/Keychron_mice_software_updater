@@ -121,13 +121,19 @@ def main():
         online_version, download_url = get_online_version_and_url()
 
         if installed_version != online_version:
+            logger.info('Update available')
             MessageBox = ctypes.windll.user32.MessageBoxW
             result = MessageBox(None, f'Version {online_version} of the Keychron software is available. Do you want to download it?', 'New version available', 1)
             if result == 1:
+                logger.info('User selected to update the software')
                 tmp_path = tempfile.mkdtemp()
                 download_and_extract_file(download_url, tmp_path)
                 run_exe(tmp_path)
                 shutil.rmtree(tmp_path)
+            else:
+                logger.info('User selected not to update the software')
+        else:
+            logger.info('No update available')
     except Exception as e:
         logging.error(f"An error occurred in main function: {e}")
         messagebox.showerror("Error", f"An error occurred in main function: {e}")
