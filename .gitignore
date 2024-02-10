@@ -1,6 +1,7 @@
 build/
 dist/
 upx/
+.venv/
 
 *.log
 *.spec
