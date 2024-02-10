@@ -2,17 +2,18 @@
 
 ![last commit](https://img.shields.io/github/last-commit/Pyenb/Keychron_software_updater)
 
-This Python script automatically checks for a new version of the Keychron mice software and downloads it if a new version is found.
+This is a Python script, bundled into an executable, that checks for a new version of the [Keychron mice software](https://www.keychron.com/pages/learn-more-how-to-use-keychron-mouse-software) and asks the user if they want to download and install the new version. The software will automatically start on startup and check for updates.
 
 ## Table of Contents
 
 - [Installation](#installation)
+  - [Updating the software](#updating-the-software)
 - [Usage](#usage)
-- [Uninstallation](#uninstallation)
 - [Problem reports](#problem-reports)
 - [Anti-virus detection](#anti-virus-detection)
 - [FAQ](#faq)
 - [Thanks to](#thanks-to)
+- [Uninstallation](#uninstallation)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 
@@ -24,6 +25,10 @@ This Python script automatically checks for a new version of the Keychron mice s
 4. Run the downloaded `.exe` file to start the installation process. Follow the prompts to complete the installation.
 
 ![Installation](images/install01.png)
+
+### Updating the software
+
+To update the updater, simply download the latest release and run the installer. The installer will automatically update the software to the latest version.
 
 ## Usage
 
@@ -37,6 +42,29 @@ This Python script automatically checks for a new version of the Keychron mice s
 
 ![Update Notification](images/notification.png)
 
+## Problem reports
+
+The software will break if Keychron changes the download link for the software. If this happens, please open an issue with your received error message and I will try to assist you as soon as possible. There is an issue template available to help you with the information I need to help you.
+
+## Anti-virus detection
+
+For information regarding anti-virus detection, please see the [av.md](av.md) file.
+
+## FAQ
+
+**Q: Why the installer?**
+
+A: I used [Inno Setup](https://jrsoftware.org/isinfo.php) to create the installer. This is because I wanted to make the installation process as easy as possible. Also it makes uninstalling and starting the software on startup easier.
+
+**Q: Why?**
+
+A: Because Keychron's software doesn't have an auto-update feature.
+
+## Thanks to
+
+- [wkentaro](https://github.com/wkentaro) for making [gdown](https://github.com/wkentaro/gdown)
+- [Keychron](https://www.keychron.com/) for making great products, even tough all my batteries are failing.
+
 ## Uninstallation
 
 To uninstall the Keychron Software Updater:
@@ -49,33 +77,6 @@ To uninstall the Keychron Software Updater:
 ![preview](images/app_preview.png)
 ![Uninstallation](images/uninstall.png)
 
-## Problem reports
-
-The software will break if Keychron changes the download link for the software. If this happens, please open an issue with your received error message and I will try to assist you as soon as possible.
-
-## Anti-virus detection
-
-For information regarding anti-virus detection, please see the [av.md](av.md) file.
-
-## FAQ
-
-**Q: Why is the executable so big?**
-
-A: The executable is so big because it contains the python interpreter and all the dependencies. This is because I used [PyInstaller](https://www.pyinstaller.org/) to create the executable. I am currently looking into other ways to create the executable.
-
-**Q: Why the installer?**
-
-A: I used [Inno Setup](https://jrsoftware.org/isinfo.php) to create the installer. This is because I wanted to make the installation process as easy as possible. Also it makes uninstalling and starting the software on startup easier.
-
-**Q: Why does the software need admin privileges?**
-
-A: The official Keychron software needs the admin privileges to install their software.
-
-## Thanks to
-
-- [wkentaro](https://github.com/wkentaro) for making [gdown](https://github.com/wkentaro/gdown)
-- [Keychron](https://www.keychron.com/) for making great products, even tough all my batteries are failing.
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -84,6 +85,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Disclaimer
 
-This repository is for research purposes only, the use of this code is your responsibility.
+I am in no way affiliated with Keychron. This repository is for research purposes only, the use of this code is your responsibility.
 
 I take NO responsibility and/or liability for how you choose to use any of the source code available here. By using any of the files available in this repository, you understand that you are AGREEING TO USE AT YOUR OWN RISK. Once again, ALL files available here are for EDUCATION and/or RESEARCH purposes ONLY.
