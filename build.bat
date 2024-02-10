@@ -1,1 +1,1 @@
-pyinstaller --onefile --noconsole -n "Keychron mice updater" -i images/logo.ico --upx-dir=upx/ updater.py
+pyinstaller --onefile --noconsole -n "Keychron mice updater" -i images/logo.ico --paths=.venv\Lib\site-packages --upx-dir=upx/ updater.py
