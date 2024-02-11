@@ -1,12 +1,13 @@
-# Keychron mice Software Updater
+# Keychron Wireless Mouse Software Updater
 
 ![last commit](https://img.shields.io/github/last-commit/Pyenb/Keychron_software_updater)
 
-This is a Python script, bundled into an executable, that checks for a new version of the [Keychron mice software](https://www.keychron.com/pages/learn-more-how-to-use-keychron-mouse-software) and asks the user if they want to download and install the new version. The software will automatically start on startup and check for updates.
+This is a Python script, bundled into an executable, that checks for a new version of the [Keychron Wireless Mouse Software](https://www.keychron.com/pages/learn-more-how-to-use-keychron-mouse-software) and asks the user if they want to download and install the new version. The software will automatically start on startup and check for updates.
 
 ## Table of Contents
 
 - [Installation](#installation)
+  - [Supported mice](#supported-mice)
   - [Updating the software](#updating-the-software)
 - [Usage](#usage)
 - [Problem reports](#problem-reports)
@@ -25,6 +26,10 @@ This is a Python script, bundled into an executable, that checks for a new versi
 4. Run the downloaded `.exe` file to start the installation process. Follow the prompts to complete the installation.
 
 ![Installation](images/install01.png)
+
+### Supported mice
+
+This updater is for the [Keychron Wireless Mouse Software](https://www.keychron.com/pages/learn-more-how-to-use-keychron-mouse-software). Anything supported by the official software should work. You should know what software you are using.
 
 ### Updating the software
 
