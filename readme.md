@@ -9,8 +9,9 @@ This is a Python script, bundled into an executable, that checks for a new versi
 
 - [Installation](#installation)
   - [Supported mice](#supported-mice)
-  - [Updating the software](#updating-the-software)
 - [Usage](#usage)
+  - [Updating the Keychron software](#updating-the-keychron-wireless-mouse-software)
+  - [Updating the updater](#updating-the-updater)
 - [Problem reports](#problem-reports)
 - [Anti-virus detection](#anti-virus-detection)
 - [FAQ](#faq)
@@ -32,11 +33,9 @@ This is a Python script, bundled into an executable, that checks for a new versi
 
 This updater is for the [Keychron Wireless Mouse Software](https://www.keychron.com/pages/learn-more-how-to-use-keychron-mouse-software). Anything supported by the official software should work. You should know what software you are using.
 
-### Updating the software
-
-To update the updater, simply download the latest release and run the installer. The installer will automatically update the software to the latest version.
-
 ## Usage
+
+### Updating the Keychron wireless mouse software
 
 1. **Startup**: After installation, the Keychron Software Updater will automatically check for updates to the Keychron software every time you start your computer. (Make sure to check the "Run Keychron Software Updater on startup" checkbox during installation.)
 
@@ -47,6 +46,14 @@ To update the updater, simply download the latest release and run the installer.
 4. **Cleanup**: After the installation process is complete, the Keychron Software Updater will automatically delete the downloaded installer.
 
 ![Update Notification](images/notification.png)
+
+### Updating the updater
+
+When there is a new version of the Updater available, you will be prompted to check it out. If you choose "Yes", you will be taken to the [Releases](https://github.com/Pyenb/Keychron_mice_software_updater/releases) section.
+
+###### Note: This is only available since version 1.3 and later
+
+![Updater Update](images/updater_update.png)
 
 ## Problem reports
 
