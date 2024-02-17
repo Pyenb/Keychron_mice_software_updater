@@ -1,6 +1,6 @@
 #define AppName "Keychron mice updater"
 #define ExeName AppName + ".exe"
-#define Version "1.1"
+#define Version "1.3"
 #define AppPublisher "Pyenb"
 
 [Setup]
