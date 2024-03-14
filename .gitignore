@@ -2,6 +2,7 @@ build/
 dist/
 upx/
 .venv/
+.idea/
 
 *.log
 *.spec
