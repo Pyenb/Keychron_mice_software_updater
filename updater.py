@@ -133,6 +133,9 @@ def get_online_version_and_url():
                 break
 
         return online_version, download_url
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Couldn't connect to the internet: {e}")
+        terminate()
     except Exception as e:
         logging.error(f"Failed to get online version and url: {e}")
         messagebox.showerror("Error", f"Failed to get online version and url: {e}")
@@ -194,6 +197,6 @@ def main():
 
 
 if __name__ == "__main__":
-    VERSION = 1.3
+    VERSION = 1.4
     own_update_manager()
     main()
