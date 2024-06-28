@@ -65,7 +65,7 @@ The software will break if Keychron changes the download link for the software. 
 
 ## Anti-virus detection
 
-For information regarding anti-virus detection, please see the [av.md](av.md) file.
+Any anti-virus detection is a false positive, please see the [av.md](av.md) for more information.
 
 ## FAQ
 
