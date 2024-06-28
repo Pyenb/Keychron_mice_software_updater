@@ -75,7 +75,7 @@ A: I used [Inno Setup](https://jrsoftware.org/isinfo.php) to create the installe
 
 **Q: Why?**
 
-A: Because Keychron's software doesn't have an auto-update feature.
+A: Because Keychron's software doesn't have an build-in updater.
 
 ## Thanks to
 
