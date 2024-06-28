@@ -14,4 +14,4 @@ I also manually rescanned the file, but couldn't get it to throw a false positiv
 
 ## VirusTotal
 
-I have also scanned the file with VirusTotal. You can see the results [here](www.virustotal.com/gui/file/17894a2bb63c50e34e0def96e142d74be5cf56457d62d23e3730e02d47ba2c31)
+I have also scanned the file with VirusTotal. You can see the results [here](virustotal.com/gui/file/17894a2bb63c50e34e0def96e142d74be5cf56457d62d23e3730e02d47ba2c31)
