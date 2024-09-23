@@ -2,7 +2,7 @@
 
 # Keychron Wireless Mouse Software Updater
 
-[![last commit](https://img.shields.io/github/last-commit/Pyenb/Keychron_software_updater?label=Last%20commit)](https://github.com/Pyenb/Keychron_mice_software_updater/commits/main/)
+[![Releases](https://img.shields.io/github/v/release/pyenb/keychron_mice_software_updater.svg?label=Release)](https://github.com/pyenb/keychron_mice_software_updater/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Pyenb/Keychron_software_updater/total?label=Total%20downloads)](https://github.com/Pyenb/Keychron_mice_software_updater/releases)
 
 This is a Python script, bundled into an executable, that checks for a new version of the [Keychron Wireless Mouse Software](https://www.keychron.com/pages/learn-more-how-to-use-keychron-mouse-software) and asks the user if they want to download and install the new version. The software will automatically start on startup and check for updates.
